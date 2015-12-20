@@ -368,6 +368,18 @@
     <Compile Include="Chat.aspx.designer.cs">
       <DependentUpon>Chat.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Classes\Administrator.cs" />
+    <Compile Include="Classes\Agenda.cs" />
+    <Compile Include="Classes\Appointment.cs" />
+    <Compile Include="Classes\Database.cs" />
+    <Compile Include="Classes\Dependant.cs" />
+    <Compile Include="Classes\Guest.cs" />
+    <Compile Include="Classes\Message.cs" />
+    <Compile Include="Classes\Reply.cs" />
+    <Compile Include="Classes\Review.cs" />
+    <Compile Include="Classes\Topic.cs" />
+    <Compile Include="Classes\User.cs" />
+    <Compile Include="Classes\Volunteer.cs" />
     <Compile Include="Contact.aspx.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -375,6 +387,7 @@
     <Compile Include="Contact.aspx.designer.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Database.cs" />
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
